@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+.awecf:before, .awecf:after { content: " "; display: table; }
+.awecf:after { clear: both; }
+.awecf { *zoom: 1; }
+
+.awesome-weather-wrap {
+	background: #333;
+    -webkit-transition: background 0.5s ease-in;
+    -moz-transition: background 0.5s ease-in;
+    -o-transition: background 0.5s ease-in;
+    transition: background 0.5s ease-in;
+    color: #023c42;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    clear: both;
+    max-width: 400px;
+    margin: 0 auto;
+	padding:10px 0;
+}
+
+.awesome-weather-wrap.darken { 
+	text-shadow: 0 1px 1px rgba(0,0,0,0.9);
+}
+
+.awesome-weather-wrap.temp1 { background: #43adff; }
+.awesome-weather-wrap.temp2 { background: #629BE0; }
+.awesome-weather-wrap.temp3 { background: #8289C1; }
+.awesome-weather-wrap.temp4 { background: #A178A3; }
+.awesome-weather-wrap.temp5 { background: #C06684; }
+.awesome-weather-wrap.temp6 { background: #4abfc5; }
+.awesome-weather-wrap.temp7 { background: #ff4246; }
+
+.awesome-weather-cover { width: 100%; height: 100%; background-size: cover; }
+.awesome-weather-darken { width: 100%; height: 100%; background: rgba(0,0,0,0.3); }
+
+.awesome-weather-header {
+	margin-bottom:8px;
+}
+.awesome-weather-wrap.darken .awesome-weather-header { background: rgba(0,0,0,0.2); }
+
+.awesome-weather-left {
+	float:left;
+	width:55%;
+	padding: 0px 5% 0px 0;
+}
+.awesome-weather-current-temp {
+	font-size: 24px;
+	line-height: 1em;
+	font-weight: 300;
+	background:url(../images/icons/weather-icon.png) no-repeat 50px center;
+}
+
+.awesome-weather-current-temp sup { font-size: 14px; top: -0.5em; padding-left: 3px; }
+
+.awesome-weather-todays-stats {
+	float: right;
+	padding: 0px 0 0px 5%;
+	line-height: 1.4em;
+	width: 34.6%;
+	border-left: solid 1px #098d94;
+}
+
+.awesome-weather-forecast { 
+	border-top: solid 1px #098d94;
+	margin: 8px auto;
+	padding-top: 10px;
+	clear: both; 
+}
+
+.awesome-weather-forecast-day {
+	width: 18%;
+	margin: 0 1%;
+	float: left;
+	font-weight: 400;
+}
+
+.awe_days_2 .awesome-weather-forecast-day { width: 48%; }
+.awe_days_3 .awesome-weather-forecast-day { width: 31%; }
+.awe_days_4 .awesome-weather-forecast-day { width: 23%; }
+
+.awesome-weather-forecast-day-temp { font-size: 12px; font-weight: 400; }
+.awesome-weather-forecast-day-temp sup { font-size: 0.6em; padding-left: 2px; top: -0.6em }
+.awesome-weather-forecast-day-abbr { font-size: 12px; padding-right: 4px;  }
+
+.awe_tall .awesome-weather-current-temp,
+.awe_tall .awesome-weather-todays-stats,
+.awe_without_stats .awesome-weather-current-temp { text-align: center; width: 90%; float: none; }
+.awe_tall .awesome-weather-todays-stats { padding: 0 5%; }
+
+.awe_without_stats .awesome-weather-forecast { margin-top: 0; }
+
+#sidebar .awe_wide .awesome-weather-current-temp,
+#secondary .awe_wide .awesome-weather-current-temp { font-size: 50px; }
+
+#sidebar .awe_wide .awesome-weather-current-temp sup,
+#secondary .awe_wide .awesome-weather-current-temp sup { font-size: 18px; }
+
+#sidebar .awe_wide .awesome-weather-todays-stats,
+#secondary .awe_wide .awesome-weather-todays-stats { font-size: 12px; }
+
+
+.awesome-weather-more-weather-link { padding: 5px; text-align: center; }
+.awesome-weather-more-weather-link a { color: #fff !important; text-decoration: none !important; font-size: 0.8em; }
+
